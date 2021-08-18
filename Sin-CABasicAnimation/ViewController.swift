@@ -24,8 +24,9 @@ final class ViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
+        myView.layer.borderWidth = 2
+        myView.layer.borderColor = UIColor.black.cgColor
         myView.cutToSinCurve()
-        
         
     }
     
