@@ -1,18 +1,63 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WaveView" customModule="Sin_CABasicAnimation" customModuleProvider="target">
+            <connections>
+                <outlet property="bottomView" destination="O9r-aR-Ytc" id="YZN-8u-7CF"/>
+                <outlet property="middleView" destination="KcK-FT-wBX" id="C0h-fK-FNj"/>
+                <outlet property="topView" destination="WQH-xV-jqX" id="3ai-z2-Y6Z"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <rect key="frame" x="0.0" y="0.0" width="389" height="443"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O9r-aR-Ytc">
+                    <rect key="frame" x="0.0" y="0.0" width="389" height="443"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KcK-FT-wBX">
+                    <rect key="frame" x="0.0" y="0.0" width="389" height="443"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WQH-xV-jqX">
+                    <rect key="frame" x="0.0" y="0.0" width="389" height="443"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="WQH-xV-jqX" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="AHH-8j-NMw"/>
+                <constraint firstAttribute="trailing" secondItem="KcK-FT-wBX" secondAttribute="trailing" id="FZ7-Ha-2BI"/>
+                <constraint firstAttribute="bottom" secondItem="WQH-xV-jqX" secondAttribute="bottom" id="Mwr-iP-9K3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="O9r-aR-Ytc" secondAttribute="trailing" id="QR9-Zm-dgF"/>
+                <constraint firstAttribute="bottom" secondItem="KcK-FT-wBX" secondAttribute="bottom" id="UaI-ro-WxO"/>
+                <constraint firstItem="KcK-FT-wBX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Wza-rF-T2z"/>
+                <constraint firstItem="O9r-aR-Ytc" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="pDI-Qu-IqR"/>
+                <constraint firstItem="O9r-aR-Ytc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="phm-dt-2EN"/>
+                <constraint firstAttribute="trailing" secondItem="WQH-xV-jqX" secondAttribute="trailing" id="qEp-Qe-1a3"/>
+                <constraint firstItem="WQH-xV-jqX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vqW-4W-GPI"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="O9r-aR-Ytc" secondAttribute="bottom" id="ycs-V0-uU2"/>
+                <constraint firstItem="KcK-FT-wBX" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="zGf-L0-wff"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-55.797101449275367" y="-1.0044642857142856"/>
         </view>
     </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

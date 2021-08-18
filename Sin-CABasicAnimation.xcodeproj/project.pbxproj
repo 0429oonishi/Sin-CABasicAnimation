@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB16304A26CD47CA00111F55 /* WaveView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB16304926CD47CA00111F55 /* WaveView.xib */; };
+		AB16304C26CD47F200111F55 /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB16304B26CD47F200111F55 /* WaveView.swift */; };
 		AB2FF50B26CCDA3900A3EFC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF50A26CCDA3900A3EFC7 /* AppDelegate.swift */; };
 		AB2FF50D26CCDA3900A3EFC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF50C26CCDA3900A3EFC7 /* SceneDelegate.swift */; };
 		AB2FF50F26CCDA3900A3EFC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF50E26CCDA3900A3EFC7 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB16304926CD47CA00111F55 /* WaveView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WaveView.xib; sourceTree = "<group>"; };
+		AB16304B26CD47F200111F55 /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
 		AB2FF50726CCDA3900A3EFC7 /* Sin-CABasicAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sin-CABasicAnimation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2FF50A26CCDA3900A3EFC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB2FF50C26CCDA3900A3EFC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		AB2FF50926CCDA3900A3EFC7 /* Sin-CABasicAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				AB16304926CD47CA00111F55 /* WaveView.xib */,
+				AB16304B26CD47F200111F55 /* WaveView.swift */,
 				AB2FF50A26CCDA3900A3EFC7 /* AppDelegate.swift */,
 				AB2FF50C26CCDA3900A3EFC7 /* SceneDelegate.swift */,
 				AB2FF50E26CCDA3900A3EFC7 /* ViewController.swift */,
@@ -127,6 +133,7 @@
 				AB2FF51726CCDA3A00A3EFC7 /* LaunchScreen.storyboard in Resources */,
 				AB2FF51426CCDA3A00A3EFC7 /* Assets.xcassets in Resources */,
 				AB2FF51226CCDA3900A3EFC7 /* Main.storyboard in Resources */,
+				AB16304A26CD47CA00111F55 /* WaveView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 				AB2FF50F26CCDA3900A3EFC7 /* ViewController.swift in Sources */,
 				AB2FF50B26CCDA3900A3EFC7 /* AppDelegate.swift in Sources */,
 				AB2FF50D26CCDA3900A3EFC7 /* SceneDelegate.swift in Sources */,
+				AB16304C26CD47F200111F55 /* WaveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
